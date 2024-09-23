@@ -1,0 +1,25 @@
+body{
+background-image:url(media/R.jpg);
+background-size:cover;
+}
+h1{
+    color: blue;
+}
+
+p{
+    color: purple;
+}
+
+p{
+    font-size:large;
+}
+
+p{
+    font-style: oblique;
+}
+
+h1{
+    font-style:oblique;
+}
+
+
