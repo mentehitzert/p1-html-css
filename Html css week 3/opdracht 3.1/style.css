@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Goldman", cursive;
+    height: 100vh;
+  }
+  
+  main{
+    height: 100vh;
+  }
+  
+  nav {
+    display: flex;
+    width: 100vw;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+  
+  img{
+    float:left
+    
+  }
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 20vw;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+    a{
+      padding: 1rem;
+      display: block;
+      color: #00a8c7;
+      text-align: left;
+    }
+  }
+  .dropdown-menu:hover{
+    background-color: #E9E9E9;
+    a{
+      color: #00a8c7;
+    }
+  }
+  .dropdown-menu:hover .dropdown-content{
+    display: block;
+  }
+  
+  
+  footer{
+    background: #00a8c7;
+    margin-top: auto;
+    padding: 2rem;
+    clear: left;
+    
+  }
+  .H-sql{
+    color: #E48E00;
+  }
+  .H-php{
+    color: #8993BE;
+  }
+  .H-java{
+    color: #F7DF1E;
+  }
+  .H-html{
+    color: #0071BB;
+  }
+  .H-css{
+    color: #E44D27;
+  }
+  
+  
+  .Mpage{
+    color: aliceblue;
+    background-image: url(./img/background.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  
+    h1{
+      text-align: center;
+      padding: 30rem;
+      font-size: xxx-large;
+    }
+  }
+  .Java{
+    background: #151515;
+    color: aliceblue;
+    h1{
+      padding: 3.1rem;
+      font-size: 5rem;
+      text-align: center;
+    }
+  }
+  
+  .Java main img{
+    width: 60rem;
+    padding: 10rem;
+    float: right;
+  
+    
+  }
+  .java  #tekst{
+   font-size: 3rem;
+   padding: 15rem;
+  
+  }
+  .Java footer{
+    text-align: center;
+    clear: right;
+  }
+  
+  .Java main{
+    padding: 1rem;
+  
+    
+  
+  }
+  .Java p{
+    font-size: 2rem;
+  }
+  .html{
+    padding: .1rem;
+  }
+  .HTML p{
+    font-size: 18px;
+  }
+  .html header{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2.5rem;
+  }
+  .html img{
+    width: 80rem;
+    padding: 10rem;
+  }
+  .html .tekst{
+    padding-top: 150px;
+    font-size: xx-large;
+    font-weight: normal;
+  }
+  
+  .HTML footer{
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .php{
+    padding: 1rem;
+    padding-bottom: 100px;
+  }
+  .php h1{
+    text-align: center;
+    margin: 3rem;
+    font-size: xx-large;
+    
+  }
+  .php .tekst{
+   
+    font-size: x-large;
+    padding-top: 4rem;
+  }
+  .php img{
+    width: 60rem;
+    padding: 10rem;
+    float: left;
+    margin-bottom: 21.5rem;
+  }
+  .PHP footer{
+    text-align: center;
+    color: aliceblue;
+    margin: 0rem;
+  }
+  
+  .SQL footer{
+    color: rgb(249, 249, 249);
+  
+  }
+  
+   .SQL{
+    background-color: #151515;
+    color: rgb(255, 255, 255);
+   }
+  
+  .SQL footer{
+    text-align: center;
+  }
+  .sql h1{
+    padding: 3.1rem;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .sql img{
+    float: right;
+    width: 600px;
+    
+  }
+  .sql .tekst{
+    width: 600px;
+    margin: 10rem;
+    padding-bottom: 25rem;
+    font-size: 2rem;
+  }
