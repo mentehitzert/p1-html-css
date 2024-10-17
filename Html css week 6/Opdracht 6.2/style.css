@@ -1,0 +1,33 @@
+.container {
+width: 1200px;
+height: 300px;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row-reverse;
+}
+
+.blokrood {
+background-color: red;
+width: 200px;
+height: 200px;
+border: 1px solid black;
+}
+
+.blokblauw {
+background-color: blue;
+width: 200px;
+height: 200px;
+}
+
+.blokzwart {
+background-color: black;
+width: 200px;
+height: 200px;
+}
+
+.blokgroen{
+background-color: green;
+width: 200px;
+height: 200px;
+}
+
