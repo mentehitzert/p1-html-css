@@ -64,15 +64,22 @@
       color: #00a8c7;
       text-align: left;
     }
+
+    
+  
   }
   .dropdown-menu:hover{
     background-color: #E9E9E9;
     a{
       color: #00a8c7;
     }
+
+    
+
   }
   .dropdown-menu:hover .dropdown-content{
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   
   
