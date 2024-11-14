@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.blokje{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 2rem;
+}
+#Title1{
+    padding: 2rem;
+    background-color: yellow ;
+    padding-bottom: 10rem;
+}
+#Title2{
+    padding: 2rem;
+    background-color: orange;
+    padding-bottom: 10rem;
+}
+#Title3{
+    padding: 2rem;
+    background-color: green ;
+    padding-bottom: 10rem;
+}
+
+
+
+@media (max-width: 1000px){
+    .blokje{
+        display: none;
+    }
+
+    #Title1{
+        color: white;
+        background-color: rgb(206, 76, 76);
+    }
+
+
+    #Title2{
+        color: white;
+        background-color: rgb(45, 72, 193);
+    }
+
+
+    #Title3{
+        color: white;
+        background-color: rgb(42, 50, 165);
+    }
+    
+    #logo{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(238, 107, 134);
+        color: white;
+    }
+}
+
+
+
+
+
+
+@media (max-width:600px){
+   
+
+    .blokje{
+        display: block;
+        justify-content: center;
+    }
+
+
+    #Title1{
+        color: white;
+        background-color: rgb(129, 218, 234);
+    }
+
+    #logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(85, 107, 236);
+        color: white;
+    }
+
+
+    #Title2{
+        color: white;
+        background-color: rgb(230, 109, 241);
+    }
+
+
+    #Title3{
+        color: white;
+        background-color: rgb(50, 54, 112);
+    }
+}
